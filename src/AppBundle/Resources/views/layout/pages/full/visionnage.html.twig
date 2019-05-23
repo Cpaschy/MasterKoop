@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+{% include '@pages/default/header.html.twig' %}
+<br/><br/>
+<div class="container">
+    <div class="sm-8" align="center">
+        <img src="img/logo.png"><br/>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">One Punch man saison2 episode 1</h5>
+            <video controls width="850">
+                <source src="..." type="video/mp4">
+            </video>
+            <div align="left">
+                Votes
+                <div class="vote">
+                    <button class="btn btn-success"><img src="img/like.png"></button>
+                    <button class="btn btn-danger"><img src="img/unlike.png"></button>
+                </div>
+            </div>
+        </div>
+    <div class="card text-white bg-secondary " id="comm">
+        <div class="card-body">
+            <h5 class="card-title">Commentaires</h5>
+            <p class="card-text">lachez vos Coms</p>
+            <form method="post">
+                <div align="center">
+                <div class="form-group">
+                    <label for="Coms">Message</label>
+                    <textarea class="form-control" name="ComsInput" rows="3" placeholder="Entrer vos commentaires"></textarea>
+                </div>
+                <input class="btn btn-light" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+{% include '@pages/default/footer.html.twig' %}

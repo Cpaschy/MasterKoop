@@ -1,0 +1,27 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+home:
+    path:     /
+    controller: AppBundle\Controller\DefaultController::indexAction
+
+catalogue:
+    path:     /catalogue
+    controller: AppBundle\Controller\DefaultController::catalogueAction
+
+connexion:
+    path:     /connexion
+    controller: AppBundle\Controller\DefaultController::connexionAction
+
+inscription:
+    path:     /inscription
+    controller: AppBundle\Controller\DefaultController::inscriptionAction
+
+news:
+    path:     /news
+    controller: AppBundle\Controller\DefaultController::newsAction
+
+visionnage:
+    path:     /visionnage
+    controller: AppBundle\Controller\DefaultController::visionnageAction
